@@ -1,0 +1,19 @@
+use_cuda: false
+use_wandb: false
+epochs: 2
+lr: 0.001
+save_path: "./outputs/"
+
+model:
+  name: "dummy"
+  input_channels: 3
+  hidden_dim: 16
+
+loss:
+  name: "mse"
+
+data:
+  name: "dummy"
+  root: ""
+  batch_size: 4
+  shuffle: true
