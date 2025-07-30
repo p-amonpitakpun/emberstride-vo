@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Conda envs
+*.conda
+*.env
+
+# System files
+.DS_Store
+
+# Logs
+*.log
+wandb/
+logs/
+
+# Models & artifacts
+*.pt
+*.pth
+*.ckpt
+outputs/
+artifacts/
