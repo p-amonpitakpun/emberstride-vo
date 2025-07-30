@@ -1,0 +1,19 @@
+use_cuda: true
+use_wandb: true
+epochs: 20
+lr: 0.0005
+save_path: "gs://emberstride-vo-artifacts/models/"
+
+model:
+  name: "deepvo"
+  input_channels: 3
+  hidden_dim: 128
+
+loss:
+  name: "mse"
+
+data:
+  name: "tum_vi"
+  root: "gs://emberstride-vo-datasets/tum_vi"
+  batch_size: 32
+  shuffle: true
